@@ -1,0 +1,9 @@
+apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
+kind: PubSubTopic
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: henrybell-argolis-kcc-1
+  labels:
+    label-one: "demo-value-one"
+  name: demo-topic-1
+  namespace: config-control
