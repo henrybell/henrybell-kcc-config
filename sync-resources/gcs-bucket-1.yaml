@@ -3,7 +3,6 @@ kind: StorageBucket
 metadata:
   name: henrybell-kcc-demo-bucket-1
   namespace: config-control
-  annotations:
-    cnrm.cloud.google.com/project-id: henrybell-argolis-kcc-1
 spec:
   location: us-central1
+  uniformBucketLevelAccess: true
