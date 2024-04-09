@@ -1,0 +1,9 @@
+apiVersion: storage.cnrm.cloud.google.com/v1beta1
+kind: StorageBucket
+metadata:
+  name: demo-bucket-2
+  namespace: config-control
+  annotations:
+    cnrm.cloud.google.com/project-id: henrybell-argolis-kcc-1
+spec:
+  location: europe-west1
